@@ -1,0 +1,5 @@
+com\di\BookRepository.class
+com\di\LibraryManagementApplication.class
+com\di\BookService.class
+com\di\App.class
+com\di\Book.class

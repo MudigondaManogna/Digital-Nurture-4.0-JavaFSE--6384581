@@ -1,0 +1,6 @@
+com\example\springdatajpa\entity\Book.class
+com\example\springdatajpa\repository\BookRepository.class
+com\example\springdatajpa\controller\BookController.class
+com\example\App.class
+com\example\springdatajpa\SpringDataJpaExampleApplication.class
+com\example\springdatajpa\service\BookService.class
