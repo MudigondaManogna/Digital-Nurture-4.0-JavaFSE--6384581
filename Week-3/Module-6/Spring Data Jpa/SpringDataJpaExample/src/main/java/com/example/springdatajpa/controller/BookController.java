@@ -14,13 +14,11 @@ public class BookController {
     @Autowired
     private BookRepository bookRepository;
 
-    // GET all books
     @GetMapping
     public List<Book> getAllBooks() {
         return bookRepository.findAll();
     }
 
-    // POST a new book
     @PostMapping
     public Book addBook(@RequestBody Book book) {
         return bookRepository.save(book);

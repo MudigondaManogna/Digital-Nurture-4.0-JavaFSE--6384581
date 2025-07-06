@@ -5,10 +5,7 @@
         http://www.springframework.org/schema/beans 
         http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <!-- 🔌 Define BookRepository bean -->
     <bean id="bookRepository" class="com.di.BookRepository" />
-
-    <!-- 🔌 Define BookService bean and inject BookRepository using setter -->
     <bean id="bookService" class="com.di.BookService">
         <property name="bookRepository" ref="bookRepository" />
     </bean>
