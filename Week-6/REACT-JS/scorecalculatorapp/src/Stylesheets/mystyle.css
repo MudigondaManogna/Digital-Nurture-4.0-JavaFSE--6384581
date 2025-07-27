@@ -1,0 +1,24 @@
+.formatstyle {
+  padding: 20px;
+  border: 2px solid black;
+  width: 400px;
+  margin: auto;
+  text-align: left;
+  font-family: Arial;
+}
+
+.Name {
+  color: rgb(24, 84, 5);
+}
+
+.School {
+  color: rgb(107, 29, 3);
+}
+
+.Total {
+  color: rgb(98, 110, 36);
+}
+
+.Score {
+  color: rgb(37, 4, 144);
+}
